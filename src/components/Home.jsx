@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home(params) {
   return (
     <section className="mainBox">
@@ -22,7 +23,7 @@ export default function Home(params) {
           <a href="https://vonble.netlify.app/">Vonble</a>
           <p>
             E-commerce website.
-            <span style={{ color: "gray" }}>Not yet completed</span>
+            <span style={{ color: "gray" }}>Not yet completed Please use PC</span>
           </p>
         </div>
         <div className="LinkItemBox">
