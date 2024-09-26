@@ -2,6 +2,7 @@
 export default function Home(params) {
   return (
     <section className="mainBox">
+      <div>
         <div className="LinkItemBox">
           <a href="https://vonble.netlify.app/">Vonble</a>
           <p>
@@ -32,6 +33,8 @@ export default function Home(params) {
           <a href="https://pokedex-bbegg.netlify.app/">My PokeDex</a>
           <p>PokeDex</p>
         </div>
+      </div>
+
     </section>
   );
 }

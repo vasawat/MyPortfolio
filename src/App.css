@@ -20,6 +20,7 @@ body {
   font-size: 50px;
 }
 .mainBox {
+  margin-top: 10rem;
   display: grid;
   place-content: center;
   place-items: center;
