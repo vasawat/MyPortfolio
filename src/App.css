@@ -26,7 +26,7 @@ body {
   place-content: center;
   place-items: center;
   color: #fff;
-  z-index: 99;
+  z-index: 2;
 }
 .mainBox a {
   text-decoration: none;
@@ -34,7 +34,6 @@ body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
-  z-index: 999;
 }
 .mainBox p {
   padding: 0;
@@ -43,6 +42,7 @@ body {
 
 .LinkItemBox {
   margin-top: 20px;
+  z-index: 10;
 }
 
 .angelaBox {
