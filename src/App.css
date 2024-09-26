@@ -26,7 +26,7 @@ body {
   place-content: center;
   place-items: center;
   color: #fff;
-  z-index: 999;
+  z-index: 99;
 }
 .mainBox a {
   text-decoration: none;
@@ -34,6 +34,7 @@ body {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
+  z-index: 999;
 }
 .mainBox p {
   padding: 0;
