@@ -4,6 +4,11 @@ body {
   font-family: "Exo", sans-serif;
   background: #4e54c8;
 }
+
+.wait{
+  color: red;
+}
+
 .context {
   width: 100%;
   position: absolute;
@@ -14,20 +19,11 @@ body {
   color: #fff;
   font-size: 50px;
 }
-.leftBox {
-  width: 50%;
-}
-.rightBox {
-  width: 50%;
-}
 .mainBox {
-  width: 1000px;
-  position: absolute;
-  top: 19%;
-  left: 18%;
+  display: grid;
+  place-content: center;
+  place-items: center;
   color: #fff;
-  display: flex;
-  gap: 20px;
   z-index: 2;
 }
 .mainBox a {

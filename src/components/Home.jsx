@@ -2,27 +2,23 @@
 export default function Home(params) {
   return (
     <section className="mainBox">
-      <div className="leftBox">
         <div className="LinkItemBox">
           <a href="https://vonble.netlify.app/">Vonble</a>
           <p>
-            E-commerce website.
-            <span style={{ color: "gray" }}>
-              Not yet completed Please use PC
-            </span>
+            E-commerce website.<span className="wait">* wait backend around 1 minute</span>
           </p>
+        </div>
+        <div className="LinkItemBox">
+          <a href="https://thatakopittayakom.netlify.app/">
+            School Club Project
+          </a>
+          <p>made website for student join club You may have to wait a bit.<span className="wait">* wait backend around 1 minute</span></p>
         </div>
         <div className="LinkItemBox">
           <a href="https://bankappvasawat.netlify.app/">Bank App</a>
           <p>
-            Bank application Deposit - Withdraw - Transfer money between users.
+            Bank application Deposit - Withdraw - Transfer money between users.<span className="wait">* wait backend around 1 minute</span>
           </p>
-        </div>
-        <div className="LinkItemBox">
-          <a href="https://thatakopittayakomschoolclub.onrender.com/">
-            School Club Project
-          </a>
-          <p>made website for student join club You may have to wait a bit.</p>
         </div>
         <div className="LinkItemBox">
           <a href="https://capitals-quiz-vasawat.netlify.app/">Country Quiz</a>
@@ -36,12 +32,6 @@ export default function Home(params) {
           <a href="https://pokedex-bbegg.netlify.app/">My PokeDex</a>
           <p>PokeDex</p>
         </div>
-      </div>
-      <div className="rightBox">
-        {/* <div className="LinkItemBox">
-          <Link to="/angela">Angela course</Link>
-        </div> */}
-      </div>
     </section>
   );
 }
