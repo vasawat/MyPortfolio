@@ -29,6 +29,7 @@ body {
   z-index: 2;
 }
 .mainBox a {
+  z-index: 20;
   text-decoration: none;
   color: #fff;
   font-size: 30px;
@@ -55,6 +56,7 @@ body {
 }
 
 .circles {
+  z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
